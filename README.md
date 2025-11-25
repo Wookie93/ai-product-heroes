@@ -22,8 +22,8 @@
 3. [Definiowanie Możliwości (Opportunity Solution Tree)](#3-definiowanie-możliwości-opportunity-solution-tree)
 4. [Ideacja i Rozwiązania](#4-ideacja-i-rozwiązania)
 5. [Priorytetyzacja RICE](#5-priorytetyzacja-rice)
-6. [Strategiczna Rekomendacja: "Pakiet Koordynacji"](#6-strategiczna-rekomendacja-pakiet-koordynacji)
-7. [Użyte Narzędzia](#użyte-narzędzia)
+6. [Strategiczna Rekomendacja i Prototyp](#6-strategiczna-rekomendacja-i-prototyp)
+7. [Stack Technologiczny (AI & Tools)](#7-stack-technologiczny-ai--tools)
 
 ---
 
@@ -35,10 +35,11 @@ FlowCraft wygrał rynek prostotą, stając się ulubionym narzędziem małych st
 
 ## 2. Discovery & Analiza Danych
 
-Proces decyzyjny oparliśmy na triangulacji danych jakościowych i ilościowych:
+Proces badawczy wykorzystywał zaawansowane techniki AI do symulacji i analizy danych:
 
-* **Analiza Rynku (Automatyzacja AI):** Wykorzystano integrację **n8n** do przeszukania wybranych subredditów pod kątem problemów użytkowników konkurencyjnych narzędzi. Zebrane dane przetworzono w **NotebookLLM**, co pozwoliło zidentyfikować **5 kluczowych pain pointów** prowadzących do churnu.
-* **Analiza Jakościowa:** Wywiady pogłębione (IDI) z klientami, którzy odeszli (Michał W. - PM, Jan - Founder), skonfrontowane z wnioskami z analizy AI.
+* **Analiza Rynku (Automatyzacja AI):** Wykorzystano integrację **n8n** do przeszukania wybranych subredditów pod kątem problemów użytkowników konkurencyjnych narzędzi. Zebrane dane przetworzono w **NotebookLLM**, identyfikując **5 kluczowych pain pointów** branży.
+* **Analiza Jakościowa (Symulacja AI):** Przeprowadzono wywiady pogłębione (IDI) z wykorzystaniem **syntetycznych użytkowników (AI Agents)**, którzy wcielili się w role utraconych klientów (Michał W. - PM, Jan - Founder).
+* **Synteza:** Wnioski z wywiadów zostały przeanalizowane i pogrupowane tematycznie metodą **Affinity Mapping**, a następnie skonfrontowane z ilościowymi danymi rynkowymi.
 
 **Kluczowe Wnioski (Insights):**
 1.  **Problem "Osobnych Wysp":** Każda tablica w FlowCraft działała w izolacji. Menedżerowie nie widzieli postępu inicjatyw przecinających wiele zespołów (Dev + Marketing + QA).
@@ -79,25 +80,30 @@ Zastosowaliśmy framework RICE, kalibrując wskaźniki pod realia firmy (Reach =
 | **4** | **Prosty System Etykiet Agregujących (1A)** | **320** | Umożliwia "widok z lotu ptaka" bez budowania skomplikowanych nowych obiektów (Inicjatyw). |
 | **5** | **Ulepszona Integracja z Komunikatorami (6C)** | **216.7** | Wspiera "Quick Capture" i przepływ informacji na Slack/Teams. |
 
-## 6. Strategiczna Rekomendacja: "Pakiet Koordynacji"
+## 6. Strategiczna Rekomendacja i Prototyp
 
 Analiza strategiczna wykazała, że wdrożenie *tylko* zwycięzcy rankingu (Filtrowanie) byłoby niewystarczające, aby zatrzymać churn w segmencie 30-50 osób. Filtrowanie daje *dostęp* do danych, ale nie zarządza *przepływem* pracy.
 
-**Ostateczna Decyzja:** Wdrożenie **zintegrowanego pakietu funkcji (MVP)**:
+**Ostateczna Decyzja:** Wdrożenie **zintegrowanego pakietu funkcji (MVP) - "Pakiet Koordynacji"**:
 
 1.  **Filtrowanie 2.0 (Dostęp):** Aby znaleźć igłę w stogu siana.
 2.  **Zależności Liniowe (Blokady):** Aby zapobiec chaosowi i blokowaniu pracy między zespołami.
 3.  **Etykiety Agregujące (Widoczność):** Aby dać menedżerom wgląd w postęp inicjatyw na jednym ekranie.
 
-*Zadania Cykliczne (Rank #3) zostały zakolejkowane jako osobna ścieżka ("Quick Win"), ale nie jako część strategicznego rozwiązania problemu koordynacji.*
+*Zadania Cykliczne (Rank #3) zostały zakolejkowane jako osobna ścieżka ("Quick Win").*
 
-**Dlaczego to zadziała?**
-To podejście daje "moc na żądanie" bez narzucania "złożoności na co dzień". Zespoły nadal pracują na prostych tablicach Kanban, a menedżerowie otrzymują narzędzia, których potrzebują, by nie uciekać do Jiry.
+### 🎨 Prototypowanie (v0)
+Aby zweryfikować założenia, wykorzystano narzędzie **v0** do wygenerowania **interaktywnego prototypu High-Fidelity** "Pakietu Koordynacji". Pozwoliło to na natychmiastową wizualizację rozwiązania i sprawdzenie, czy zachowuje ono "DNA Prostoty" FlowCraft przed rozpoczęciem prac deweloperskich.
 
-## Użyte Narzędzia
-* **Data Gathering:** n8n (Reddit scraping integration).
-* **AI Analysis:** NotebookLLM (Data synthesis & Pain Point extraction).
-* **Strategy:** Opportunity Solution Tree (OST), RICE Framework.
+## 7. Stack Technologiczny (AI & Tools)
+
+W projekcie wykorzystano nowoczesny zestaw narzędzi AI i No-Code:
+
+* **n8n:** Automatyzacja zbierania danych jakościowych (scraping Reddita).
+* **NotebookLLM:** Synteza dużych zbiorów danych, analiza sentymentu i identyfikacja Pain Pointów.
+* **Gemini:** Strategiczny Partner AI (Brainstorming, Symulacje person, wsparcie w RICE).
+* **Miro:** Wizualizacja strategii (Opportunity Solution Tree, Affinity Mapping).
+* **v0:** Szybkie prototypowanie interfejsu użytkownika (Generative UI).
 
 <br>
 <br>
@@ -119,8 +125,8 @@ To podejście daje "moc na żądanie" bez narzucania "złożoności na co dzień
 3. [Defining Opportunities (Opportunity Solution Tree)](#3-defining-opportunities-opportunity-solution-tree)
 4. [Ideation & Solutions](#4-ideation--solutions)
 5. [RICE Prioritization](#5-rice-prioritization)
-6. [Strategic Recommendation: The "Coordination Bundle"](#6-strategic-recommendation-the-coordination-bundle)
-7. [Tools Used](#tools-used)
+6. [Strategic Recommendation & Prototype](#6-strategic-recommendation--prototype)
+7. [Tech Stack (AI & Tools)](#7-tech-stack-ai--tools)
 
 ---
 
@@ -132,10 +138,11 @@ FlowCraft won the market with simplicity, becoming the go-to tool for small tech
 
 ## 2. Discovery & Data Analysis
 
-We employed a data triangulation approach combining qualitative and quantitative insights:
+We employed a data triangulation approach combining qualitative and quantitative insights with AI automation:
 
 * **Market Analysis (AI Automation):** Used **n8n** integration to scrape selected subreddits for competitor user complaints. This data was fed into **NotebookLLM**, which synthesized and identified **5 key pain points** driving churn.
-* **Qualitative Analysis:** In-depth interviews (IDI) with churned customers (Product Managers, Founders), validated against the AI-generated insights.
+* **Qualitative Analysis (AI Simulation):** Conducted in-depth interviews (IDI) with **synthetic users (AI Agents)** acting as churned customer personas (Product Manager, Founder).
+* **Synthesis:** Interview findings were analyzed using **Affinity Mapping** to cluster themes and then validated against quantitative market data.
 
 **Key Insights:**
 1.  **The "Isolated Islands" Problem:** Each Kanban board in FlowCraft functioned in isolation. Managers lacked visibility into initiatives that spanned multiple teams (Dev + Marketing + QA).
@@ -176,22 +183,27 @@ We applied the RICE framework to make an objective decision, calibrating metrics
 | **4** | **Simple Aggregating Labels (1A)** | **320** | Enables a "bird's-eye view" without building complex new objects (Initiatives). |
 | **5** | **Enhanced Messenger Integration (6C)** | **216.7** | Supports "Quick Capture" and information flow via Slack/Teams. |
 
-## 6. Strategic Recommendation: The "Coordination Bundle"
+## 6. Strategic Recommendation & Prototype
 
 Strategic analysis demonstrated that implementing *only* the top-ranked solution (Filtering) would be insufficient to stop churn in the 30-50 employee segment. Filtering provides *access* to data but does not manage the *flow* of work.
 
-**Final Decision:** Implement an **integrated feature bundle (MVP)**:
+**Final Decision:** Implement an **integrated feature bundle (MVP) - "The Coordination Bundle"**:
 
 1.  **Filtering 2.0 (Access):** To find the needle in the haystack.
 2.  **Linear Dependencies (Blocking):** To prevent chaos and blocked work between teams.
 3.  **Aggregating Labels (Visibility):** To give managers insight into initiative progress on a single screen.
 
-*Recurring Tasks (Rank #3) were queued as a separate "Quick Win" track but not as part of the strategic coordination solution.*
+*Recurring Tasks (Rank #3) were queued as a separate "Quick Win" track.*
 
-**Why will this work?**
-This approach offers "power on demand" without imposing "everyday complexity." Teams continue working on simple Kanban boards, while managers get the tools they need to avoid migrating to Jira.
+### 🎨 Prototyping (v0)
+To validate the concepts quickly, **v0** was used to generate a **High-Fidelity interactive prototype** of the "Coordination Bundle". This allowed us to visualize the solution and ensure it adheres to FlowCraft's "DNA of Simplicity" before writing a single line of code.
 
-## Tools Used
-* **Data Gathering:** n8n (Reddit scraping integration).
-* **AI Analysis:** NotebookLLM (Data synthesis & Pain Point extraction).
-* **Strategy:** Opportunity Solution Tree (OST), RICE Framework.
+## 7. Tech Stack (AI & Tools)
+
+The project utilized a modern AI & No-Code toolset:
+
+* **n8n:** Automation of qualitative data gathering (Reddit scraping).
+* **NotebookLLM:** Synthesis of large datasets, sentiment analysis, and Pain Point extraction.
+* **Gemini:** Strategic AI Partner (Brainstorming, Persona Simulation, RICE support).
+* **Miro:** Strategy visualization (Opportunity Solution Tree, Affinity Mapping).
+* **v0:** Rapid User Interface Prototyping (Generative UI).
