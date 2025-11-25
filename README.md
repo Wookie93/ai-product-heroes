@@ -1,16 +1,16 @@
 <div align="center">
   <p>
     <strong>
-      <a href="#case-study-strategia-produktowa-flowcraft--zatrzymanie-churnu-w-skalujących-się-zespołach">🇵🇱 Czytaj po polsku</a>
+      <a href="#strategia-produktowa-flowcraft--ai-product-heroes-certification-project">🇵🇱 Czytaj po polsku</a>
       &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#case-study-flowcraft-product-strategy--arresting-churn-in-scaling-teams">🇬🇧 Read in English</a>
+      <a href="#flowcraft-product-strategy--ai-product-heroes-certification-project">🇬🇧 Read in English</a>
     </strong>
   </p>
 </div>
 
 ---
 
-# Case Study: Strategia Produktowa FlowCraft – Zatrzymanie Churnu w Skalujących się Zespołach
+# Strategia Produktowa FlowCraft – AI Product Heroes Certification Project
 
 **Rola:** Product Manager  
 **Cel:** Podniesienie rocznej retencji klientów z **78% do 90%**.  
@@ -35,7 +35,10 @@ FlowCraft wygrał rynek prostotą, stając się ulubionym narzędziem małych st
 
 ## 2. Discovery & Analiza Danych
 
-Proces decyzyjny oparliśmy na analizie jakościowej (wywiady z klientami, którzy odeszli: Michał W. - PM, Jan - Founder) oraz ilościowej (analiza rynku, zgłoszenia supportowe).
+Proces decyzyjny oparliśmy na triangulacji danych jakościowych i ilościowych:
+
+* **Analiza Rynku (Automatyzacja AI):** Wykorzystano integrację **n8n** do przeszukania wybranych subredditów pod kątem problemów użytkowników konkurencyjnych narzędzi. Zebrane dane przetworzono w **NotebookLLM**, co pozwoliło zidentyfikować **5 kluczowych pain pointów** prowadzących do churnu.
+* **Analiza Jakościowa:** Wywiady pogłębione (IDI) z klientami, którzy odeszli (Michał W. - PM, Jan - Founder), skonfrontowane z wnioskami z analizy AI.
 
 **Kluczowe Wnioski (Insights):**
 1.  **Problem "Osobnych Wysp":** Każda tablica w FlowCraft działała w izolacji. Menedżerowie nie widzieli postępu inicjatyw przecinających wiele zespołów (Dev + Marketing + QA).
@@ -92,9 +95,9 @@ Analiza strategiczna wykazała, że wdrożenie *tylko* zwycięzcy rankingu (Filt
 To podejście daje "moc na żądanie" bez narzucania "złożoności na co dzień". Zespoły nadal pracują na prostych tablicach Kanban, a menedżerowie otrzymują narzędzia, których potrzebują, by nie uciekać do Jiry.
 
 ## Użyte Narzędzia
-* **Analiza Danych:** Wywiady IDI, analiza churnu.
-* **Strategia:** Opportunity Solution Tree (OST).
-* **Priorytetyzacja:** RICE Framework.
+* **Data Gathering:** n8n (Reddit scraping integration).
+* **AI Analysis:** NotebookLLM (Data synthesis & Pain Point extraction).
+* **Strategy:** Opportunity Solution Tree (OST), RICE Framework.
 
 <br>
 <br>
@@ -104,7 +107,7 @@ To podejście daje "moc na żądanie" bez narzucania "złożoności na co dzień
 <br>
 <br>
 
-# Case Study: FlowCraft Product Strategy – Arresting Churn in Scaling Teams
+# FlowCraft Product Strategy – AI Product Heroes Certification Project
 
 **Role:** Product Manager  
 **Goal:** Increase annual customer retention from **78% to 90%**.  
@@ -129,7 +132,10 @@ FlowCraft won the market with simplicity, becoming the go-to tool for small tech
 
 ## 2. Discovery & Data Analysis
 
-We conducted qualitative analysis (in-depth interviews with churned customers: Product Managers, Founders) and quantitative analysis of market data.
+We employed a data triangulation approach combining qualitative and quantitative insights:
+
+* **Market Analysis (AI Automation):** Used **n8n** integration to scrape selected subreddits for competitor user complaints. This data was fed into **NotebookLLM**, which synthesized and identified **5 key pain points** driving churn.
+* **Qualitative Analysis:** In-depth interviews (IDI) with churned customers (Product Managers, Founders), validated against the AI-generated insights.
 
 **Key Insights:**
 1.  **The "Isolated Islands" Problem:** Each Kanban board in FlowCraft functioned in isolation. Managers lacked visibility into initiatives that spanned multiple teams (Dev + Marketing + QA).
@@ -186,6 +192,6 @@ Strategic analysis demonstrated that implementing *only* the top-ranked solution
 This approach offers "power on demand" without imposing "everyday complexity." Teams continue working on simple Kanban boards, while managers get the tools they need to avoid migrating to Jira.
 
 ## Tools Used
-* **Data Analysis:** IDI Interviews, Churn Analysis.
-* **Strategy:** Opportunity Solution Tree (OST).
-* **Prioritization:** RICE Framework.
+* **Data Gathering:** n8n (Reddit scraping integration).
+* **AI Analysis:** NotebookLLM (Data synthesis & Pain Point extraction).
+* **Strategy:** Opportunity Solution Tree (OST), RICE Framework.
