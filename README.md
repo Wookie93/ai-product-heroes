@@ -17,7 +17,7 @@
 **Prototyp:** [👉 **Zobacz Live Demo (v0)**](https://v0-flow-craft-task-management-three.vercel.app/)
 
 ### 📝 Streszczenie Projektu
-Projekt ten prezentuje kompleksowy proces strategii produktowej (Product Discovery & Strategy) mający na celu rozwiązanie problemu churnu w skalującym się startupie B2B SaaS. Wykorzystując **AI Agents** do symulacji wywiadów oraz automatyzację **n8n** do analizy rynku, zidentyfikowano lukę w koordynacji międzyzespołowej ("Paradoks Prostoty"). Na podstawie tych danych, przy użyciu frameworków **OST** i **RICE**, zaprojektowano i zweryfikowano prototypem **"Pakiet Koordynacji"**, który pozwala rosnącym zespołom na zarządzanie złożonością bez utraty prostoty narzędzia.
+Projekt ten prezentuje kompleksowy proces strategii produktowej (Product Discovery & Strategy) mający na celu rozwiązanie problemu churnu w skalującym się startupie B2B SaaS. Wykorzystując **AI Agents** do symulacji wywiadów oraz automatyzację **n8n** do analizy rynku, zidentyfikowano lukę w koordynacji międzyzespołowej ("Paradoks Prostoty"). Na podstawie tych danych, przy użyciu frameworków **OST** i **RICE**, opracowano strategię, spisano **PRD** i zweryfikowano rozwiązanie interaktywnym prototypem **"Pakiet Koordynacji"**.
 
 ---
 
@@ -27,7 +27,7 @@ Projekt ten prezentuje kompleksowy proces strategii produktowej (Product Discove
 3. [Definiowanie Możliwości (Opportunity Solution Tree)](#3-definiowanie-możliwości-opportunity-solution-tree)
 4. [Ideacja i Rozwiązania](#4-ideacja-i-rozwiązania)
 5. [Priorytetyzacja RICE](#5-priorytetyzacja-rice)
-6. [Strategiczna Rekomendacja: "Pakiet Koordynacji"](#6-strategiczna-rekomendacja-pakiet-koordynacji)
+6. [Strategiczna Rekomendacja, PRD i Prototyp](#6-strategiczna-rekomendacja-prd-i-prototyp)
 7. [Użyte Narzędzia](#użyte-narzędzia)
 
 ---
@@ -85,11 +85,11 @@ Zastosowaliśmy framework RICE, kalibrując wskaźniki pod realia firmy (Reach =
 | **4** | **Prosty System Etykiet Agregujących (1A)** | **320** | Umożliwia "widok z lotu ptaka" bez budowania skomplikowanych nowych obiektów (Inicjatyw). |
 | **5** | **Ulepszona Integracja z Komunikatorami (6C)** | **216.7** | Wspiera "Quick Capture" i przepływ informacji na Slack/Teams. |
 
-## 6. Strategiczna Rekomendacja: "Pakiet Koordynacji"
+## 6. Strategiczna Rekomendacja, PRD i Prototyp
 
 Analiza strategiczna wykazała, że wdrożenie *tylko* zwycięzcy rankingu (Filtrowanie) byłoby niewystarczające, aby zatrzymać churn w segmencie 30-50 osób. Filtrowanie daje *dostęp* do danych, ale nie zarządza *przepływem* pracy.
 
-**Ostateczna Decyzja:** Wdrożenie **zintegrowanego pakietu funkcji (MVP)**:
+**Ostateczna Decyzja:** Wdrożenie **zintegrowanego pakietu funkcji (MVP) - "Pakiet Koordynacji"**:
 
 1.  **Filtrowanie 2.0 (Dostęp):** Aby znaleźć igłę w stogu siana.
 2.  **Zależności Liniowe (Blokady):** Aby zapobiec chaosowi i blokowaniu pracy między zespołami.
@@ -97,8 +97,11 @@ Analiza strategiczna wykazała, że wdrożenie *tylko* zwycięzcy rankingu (Filt
 
 *Zadania Cykliczne (Rank #3) zostały zakolejkowane jako osobna ścieżka ("Quick Win").*
 
+### 📄 Definiowanie Wymagań (PRD)
+Przed rozpoczęciem prac wizualnych, strategia została przełożona na szczegółowy dokument wymagań (PRD). Zdefiniowano w nim User Stories, Kryteria Akceptacji oraz przepływy użytkownika (User Flows), aby zapewnić spójność wizji z egzekucją.
+
 ### 🎨 Prototypowanie (v0)
-Aby zweryfikować założenia, wykorzystano narzędzie **v0** do wygenerowania **interaktywnego prototypu High-Fidelity** "Pakietu Koordynacji". Pozwoliło to na natychmiastową wizualizację rozwiązania i sprawdzenie, czy zachowuje ono "DNA Prostoty" FlowCraft przed rozpoczęciem prac deweloperskich.
+Aby zweryfikować założenia PRD, wykorzystano narzędzie **v0** do wygenerowania **interaktywnego prototypu High-Fidelity**. Pozwoliło to na natychmiastową wizualizację rozwiązania i sprawdzenie, czy zachowuje ono "DNA Prostoty" FlowCraft.
 
 👉 **[Zobacz Interaktywny Prototyp (v0)](https://v0-flow-craft-task-management-three.vercel.app/)**
 
@@ -124,7 +127,7 @@ Aby zweryfikować założenia, wykorzystano narzędzie **v0** do wygenerowania *
 **Prototype:** [👉 **View Live Demo (v0)**](https://v0-flow-craft-task-management-three.vercel.app/)
 
 ### 📝 Project Abstract
-This project showcases an end-to-end Product Discovery & Strategy process aimed at arresting churn in a scaling B2B SaaS startup. Leveraging **AI Agents** for customer simulation and **n8n automation** for market analysis, we identified a critical cross-team coordination gap (the "Simplicity Paradox"). Based on these insights, using **OST** and **RICE** frameworks, we designed and validated a **"Coordination Bundle"**—a solution that enables scaling teams to manage complexity without losing the tool's core simplicity.
+This project showcases an end-to-end Product Discovery & Strategy process aimed at arresting churn in a scaling B2B SaaS startup. Leveraging **AI Agents** for customer simulation and **n8n automation** for market analysis, we identified a critical cross-team coordination gap (the "Simplicity Paradox"). Based on these insights, using **OST** and **RICE** frameworks, we crafted a strategy, wrote a detailed **PRD**, and validated the solution with an interactive **"Coordination Bundle" prototype**.
 
 ---
 
@@ -134,7 +137,7 @@ This project showcases an end-to-end Product Discovery & Strategy process aimed 
 3. [Defining Opportunities (Opportunity Solution Tree)](#3-defining-opportunities-opportunity-solution-tree)
 4. [Ideation & Solutions](#4-ideation--solutions)
 5. [RICE Prioritization](#5-rice-prioritization)
-6. [Strategic Recommendation: The "Coordination Bundle"](#6-strategic-recommendation-the-coordination-bundle)
+6. [Strategic Recommendation, PRD & Prototype](#6-strategic-recommendation-prd--prototype)
 7. [Tools Used](#tools-used)
 
 ---
@@ -192,11 +195,11 @@ We applied the RICE framework to make an objective decision, calibrating metrics
 | **4** | **Simple Aggregating Labels (1A)** | **320** | Enables a "bird's-eye view" without building complex new objects (Initiatives). |
 | **5** | **Enhanced Messenger Integration (6C)** | **216.7** | Supports "Quick Capture" and information flow via Slack/Teams. |
 
-## 6. Strategic Recommendation: The "Coordination Bundle"
+## 6. Strategic Recommendation, PRD & Prototype
 
 Strategic analysis demonstrated that implementing *only* the top-ranked solution (Filtering) would be insufficient to stop churn in the 30-50 employee segment. Filtering provides *access* to data but does not manage the *flow* of work.
 
-**Final Decision:** Implement an **integrated feature bundle (MVP)**:
+**Final Decision:** Implement an **integrated feature bundle (MVP) - "The Coordination Bundle"**:
 
 1.  **Filtering 2.0 (Access):** To find the needle in the haystack.
 2.  **Linear Dependencies (Blocking):** To prevent chaos and blocked work between teams.
@@ -204,8 +207,11 @@ Strategic analysis demonstrated that implementing *only* the top-ranked solution
 
 *Recurring Tasks (Rank #3) were queued as a separate "Quick Win" track.*
 
+### 📄 Product Requirements Document (PRD)
+Before moving to visual design, the strategy was translated into a comprehensive PRD. This defined User Stories, Acceptance Criteria, and User Flows to ensure the solution matched the business goals and user needs precisely.
+
 ### 🎨 Prototyping (v0)
-To validate the concepts quickly, **v0** was used to generate a **High-Fidelity interactive prototype** of the "Coordination Bundle". This allowed us to visualize the solution and ensure it adheres to FlowCraft's "DNA of Simplicity" before writing a single line of code.
+To validate the requirements, **v0** was used to generate a **High-Fidelity interactive prototype**. This allowed us to visualize the solution and ensure it adheres to FlowCraft's "DNA of Simplicity" before writing a single line of code.
 
 👉 **[View Interactive Prototype (v0)](https://v0-flow-craft-task-management-three.vercel.app/)**
 
