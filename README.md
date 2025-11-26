@@ -14,7 +14,12 @@
 
 **Rola:** Product Manager  
 **Cel:** Podniesienie rocznej retencji klientów z **78% do 90%**.  
-**Kontekst:** FlowCraft (Startup Seria A) traci klientów, gdy ich zespoły rosną do poziomu 30-50 osób.
+**Prototyp:** [👉 **Zobacz Live Demo (v0)**](https://v0-flow-craft-task-management-three.vercel.app/)
+
+### 📝 Streszczenie Projektu
+Projekt ten prezentuje kompleksowy proces strategii produktowej (Product Discovery & Strategy) mający na celu rozwiązanie problemu churnu w skalującym się startupie B2B SaaS. Wykorzystując **AI Agents** do symulacji wywiadów oraz automatyzację **n8n** do analizy rynku, zidentyfikowano lukę w koordynacji międzyzespołowej ("Paradoks Prostoty"). Na podstawie tych danych, przy użyciu frameworków **OST** i **RICE**, zaprojektowano i zweryfikowano prototypem **"Pakiet Koordynacji"**, który pozwala rosnącym zespołom na zarządzanie złożonością bez utraty prostoty narzędzia.
+
+---
 
 ## Spis Treści
 1. [Problem: "Wyrastanie" z Narzędzia](#1-problem-wyrastanie-z-narzędzia)
@@ -22,8 +27,8 @@
 3. [Definiowanie Możliwości (Opportunity Solution Tree)](#3-definiowanie-możliwości-opportunity-solution-tree)
 4. [Ideacja i Rozwiązania](#4-ideacja-i-rozwiązania)
 5. [Priorytetyzacja RICE](#5-priorytetyzacja-rice)
-6. [Strategiczna Rekomendacja i Prototyp](#6-strategiczna-rekomendacja-i-prototyp)
-7. [Stack Technologiczny (AI & Tools)](#7-stack-technologiczny-ai--tools)
+6. [Strategiczna Rekomendacja: "Pakiet Koordynacji"](#6-strategiczna-rekomendacja-pakiet-koordynacji)
+7. [Użyte Narzędzia](#użyte-narzędzia)
 
 ---
 
@@ -80,11 +85,11 @@ Zastosowaliśmy framework RICE, kalibrując wskaźniki pod realia firmy (Reach =
 | **4** | **Prosty System Etykiet Agregujących (1A)** | **320** | Umożliwia "widok z lotu ptaka" bez budowania skomplikowanych nowych obiektów (Inicjatyw). |
 | **5** | **Ulepszona Integracja z Komunikatorami (6C)** | **216.7** | Wspiera "Quick Capture" i przepływ informacji na Slack/Teams. |
 
-## 6. Strategiczna Rekomendacja i Prototyp
+## 6. Strategiczna Rekomendacja: "Pakiet Koordynacji"
 
 Analiza strategiczna wykazała, że wdrożenie *tylko* zwycięzcy rankingu (Filtrowanie) byłoby niewystarczające, aby zatrzymać churn w segmencie 30-50 osób. Filtrowanie daje *dostęp* do danych, ale nie zarządza *przepływem* pracy.
 
-**Ostateczna Decyzja:** Wdrożenie **zintegrowanego pakietu funkcji (MVP) - "Pakiet Koordynacji"**:
+**Ostateczna Decyzja:** Wdrożenie **zintegrowanego pakietu funkcji (MVP)**:
 
 1.  **Filtrowanie 2.0 (Dostęp):** Aby znaleźć igłę w stogu siana.
 2.  **Zależności Liniowe (Blokady):** Aby zapobiec chaosowi i blokowaniu pracy między zespołami.
@@ -95,15 +100,14 @@ Analiza strategiczna wykazała, że wdrożenie *tylko* zwycięzcy rankingu (Filt
 ### 🎨 Prototypowanie (v0)
 Aby zweryfikować założenia, wykorzystano narzędzie **v0** do wygenerowania **interaktywnego prototypu High-Fidelity** "Pakietu Koordynacji". Pozwoliło to na natychmiastową wizualizację rozwiązania i sprawdzenie, czy zachowuje ono "DNA Prostoty" FlowCraft przed rozpoczęciem prac deweloperskich.
 
-## 7. Stack Technologiczny (AI & Tools)
+👉 **[Zobacz Interaktywny Prototyp (v0)](https://v0-flow-craft-task-management-three.vercel.app/)**
 
-W projekcie wykorzystano nowoczesny zestaw narzędzi AI i No-Code:
-
-* **n8n:** Automatyzacja zbierania danych jakościowych (scraping Reddita).
-* **NotebookLLM:** Synteza dużych zbiorów danych, analiza sentymentu i identyfikacja Pain Pointów.
-* **Gemini:** Strategiczny Partner AI (Brainstorming, Symulacje person, wsparcie w RICE).
-* **Miro:** Wizualizacja strategii (Opportunity Solution Tree, Affinity Mapping).
-* **v0:** Szybkie prototypowanie interfejsu użytkownika (Generative UI).
+## 7. Użyte Narzędzia
+* **Data Gathering:** n8n (Reddit scraping integration).
+* **AI Analysis:** NotebookLLM (Data synthesis & Pain Point extraction).
+* **Simulation:** Synthetic AI Users (Simulated Customer Interviews).
+* **Strategy:** Opportunity Solution Tree (OST), Affinity Mapping, RICE Framework.
+* **Prototyping:** v0 (Generative UI).
 
 <br>
 <br>
@@ -117,7 +121,12 @@ W projekcie wykorzystano nowoczesny zestaw narzędzi AI i No-Code:
 
 **Role:** Product Manager  
 **Goal:** Increase annual customer retention from **78% to 90%**.  
-**Context:** FlowCraft (Series A Startup) faces high churn as customer teams grow to 30-50 employees.
+**Prototype:** [👉 **View Live Demo (v0)**](https://v0-flow-craft-task-management-three.vercel.app/)
+
+### 📝 Project Abstract
+This project showcases an end-to-end Product Discovery & Strategy process aimed at arresting churn in a scaling B2B SaaS startup. Leveraging **AI Agents** for customer simulation and **n8n automation** for market analysis, we identified a critical cross-team coordination gap (the "Simplicity Paradox"). Based on these insights, using **OST** and **RICE** frameworks, we designed and validated a **"Coordination Bundle"**—a solution that enables scaling teams to manage complexity without losing the tool's core simplicity.
+
+---
 
 ## Table of Contents
 1. [The Problem: "Outgrowing" the Tool](#1-the-problem-outgrowing-the-tool)
@@ -125,8 +134,8 @@ W projekcie wykorzystano nowoczesny zestaw narzędzi AI i No-Code:
 3. [Defining Opportunities (Opportunity Solution Tree)](#3-defining-opportunities-opportunity-solution-tree)
 4. [Ideation & Solutions](#4-ideation--solutions)
 5. [RICE Prioritization](#5-rice-prioritization)
-6. [Strategic Recommendation & Prototype](#6-strategic-recommendation--prototype)
-7. [Tech Stack (AI & Tools)](#7-tech-stack-ai--tools)
+6. [Strategic Recommendation: The "Coordination Bundle"](#6-strategic-recommendation-the-coordination-bundle)
+7. [Tools Used](#tools-used)
 
 ---
 
@@ -183,11 +192,11 @@ We applied the RICE framework to make an objective decision, calibrating metrics
 | **4** | **Simple Aggregating Labels (1A)** | **320** | Enables a "bird's-eye view" without building complex new objects (Initiatives). |
 | **5** | **Enhanced Messenger Integration (6C)** | **216.7** | Supports "Quick Capture" and information flow via Slack/Teams. |
 
-## 6. Strategic Recommendation & Prototype
+## 6. Strategic Recommendation: The "Coordination Bundle"
 
 Strategic analysis demonstrated that implementing *only* the top-ranked solution (Filtering) would be insufficient to stop churn in the 30-50 employee segment. Filtering provides *access* to data but does not manage the *flow* of work.
 
-**Final Decision:** Implement an **integrated feature bundle (MVP) - "The Coordination Bundle"**:
+**Final Decision:** Implement an **integrated feature bundle (MVP)**:
 
 1.  **Filtering 2.0 (Access):** To find the needle in the haystack.
 2.  **Linear Dependencies (Blocking):** To prevent chaos and blocked work between teams.
@@ -198,12 +207,11 @@ Strategic analysis demonstrated that implementing *only* the top-ranked solution
 ### 🎨 Prototyping (v0)
 To validate the concepts quickly, **v0** was used to generate a **High-Fidelity interactive prototype** of the "Coordination Bundle". This allowed us to visualize the solution and ensure it adheres to FlowCraft's "DNA of Simplicity" before writing a single line of code.
 
-## 7. Tech Stack (AI & Tools)
+👉 **[View Interactive Prototype (v0)](https://v0-flow-craft-task-management-three.vercel.app/)**
 
-The project utilized a modern AI & No-Code toolset:
-
-* **n8n:** Automation of qualitative data gathering (Reddit scraping).
-* **NotebookLLM:** Synthesis of large datasets, sentiment analysis, and Pain Point extraction.
-* **Gemini:** Strategic AI Partner (Brainstorming, Persona Simulation, RICE support).
-* **Miro:** Strategy visualization (Opportunity Solution Tree, Affinity Mapping).
-* **v0:** Rapid User Interface Prototyping (Generative UI).
+## 7. Tools Used
+* **Data Gathering:** n8n (Reddit scraping integration).
+* **AI Analysis:** NotebookLLM (Data synthesis & Pain Point extraction).
+* **Simulation:** Synthetic AI Users (Simulated Customer Interviews).
+* **Strategy:** Opportunity Solution Tree (OST), Affinity Mapping, RICE Framework.
+* **Prototyping:** v0 (Generative UI).
