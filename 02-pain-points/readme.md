@@ -31,7 +31,6 @@ Zespoły, które się skalują, polegają na automatyzacji i integracjach, aby z
 * **Niezgodności w synchronizacji:** Powszechne są problemy z synchronizacją kalendarzy (np. Google Calendar), które prowadzą do duplikowania wydarzeń, oraz problemy z integracją z systemami deweloperskimi (GitHub), gdzie szerokie wyzwalacze cofają statusy po scaleniu.
 * **Brak stabilnych identyfikatorów:** Automatyzacje często odwołują się do nazw, a nie do niezmiennych identyfikatorów (ID), co powoduje, że reguły przestają działać po zmianie nazwy projektu lub pola niestandardowego.
 
-_(Źródła:)_
 
 ## 2. Niska Elastyczność Procesów i Duplikowanie Pracy (109)
 
@@ -44,7 +43,6 @@ Skalujące się zespoły wymagają elastycznych przepływów pracy (workflow), k
 * **Niewystarczające wsparcie dla subtasków i handoffów:** Brakuje jasnych reguł własności dla zadań nadrzędnych, gdy podzadania mają różnych właścicieli (handoff). Subtaski bywają zbyt "ciężkie" lub nie mają wystarczająco dużo szczegółów, aby były użyteczne.
 * **Opór przed zmianami procesu:** Wprowadzenie nowych narzędzi lub procesów (np. Scrum) napotyka na opór, ponieważ zespoły obawiają się biurokracji lub menedżerowie traktują estymaty jako obietnice, a nie prognozy.
 
-_(Źródła:)_
 
 ## 3. Bariery Wdrożenia, Migracji i Pricing (106)
 
@@ -57,7 +55,6 @@ Trudności z przyjęciem nowych narzędzi, ryzyko utraty danych podczas migracji
 * **Nieprzejrzysty i drogi pricing:** Narzędzia mają skomplikowane cenniki, a kluczowe funkcje potrzebne do skalowania (np. raportowanie, obciążenie pracą, customizowany pulpit) są zamykane za wysokimi, nieuzasadnionymi progami cenowymi lub minimalną liczbą płatnych miejsc.
 * **Frikcje przy adopcji i onboadingu:** Nowi użytkownicy są przytłoczeni (np. Jira, ClickUp), muszą tworzyć ręczne obejścia, aby zrekompensować niestabilność, a niejasne konsekwencje działania (np. usuwanie konta gościa) prowadzą do utraty historii.
 
-_(Źródła:)_
 
 ## 4. Użyteczność, UX/UI i Doświadczenie Użytkownika (78)
 
@@ -70,7 +67,6 @@ W miarę skalowania narzędzi, ich interfejsy stają się nieporęczne, powolne 
 * **Frikcje w codziennym użytkowaniu:** Podstawowe operacje, takie jak zmiana kolejności statusów, brak prostych skrótów klawiszowych lub zbyt duża liczba kliknięć w celu wykonania prostej czynności (np. dodanie elementu do cyklu), drastycznie obniżają wydajność.
 * **Nieprzejrzystość UI i ustawień:** Ustawienia są trudne do znalezienia, a niejasne komunikaty o błędach (np. "coś poszło nie tak" w Jira) utrudniają samodzielne rozwiązywanie problemów.
 
-_(Źródła:)_
 
 ## 5. Widoczność, Raportowanie i Analizy na Poziomie Portfolio (66)
 
@@ -83,7 +79,6 @@ Gdy zespoły rosną, potrzebują ujednoliconych widoków, które agregują statu
 * **Brak planowania zasobów i scenariuszy:** Brakuje widoków do bilansowania obciążenia pracą (workload) i pojemności w wielu projektach. Zespoły muszą uciekać się do Excela, aby symulować scenariusze "co, jeśli" i planować zasoby.
 * **Brak śledzenia kontekstu klienta/użytkownika:** Wraz ze skalowaniem rośnie potrzeba śledzenia powiązań między pracą deweloperską a danymi klienta (np. status requestów lub priorytet skorelowany z przychodami).
 
-_(Źródła:)_
 
 ---
 
@@ -126,7 +121,6 @@ Scaling teams rely on automation and integrations to reduce manual work, but oft
 * **Synchronization inconsistencies:** Problems with calendar synchronization (e.g., Google Calendar) leading to duplicated events are common, as well as integration issues with developer systems (GitHub), where broad triggers revert statuses after a merge.
 * **Lack of stable identifiers:** Automations often reference names rather than immutable IDs, causing rules to break when a project name or custom field is changed.
 
-_(Sources:)_
 
 ## 2. Low Process Flexibility and Work Duplication (109)
 
@@ -139,7 +133,6 @@ Scaling teams require flexible workflows that support various roles (e.g., PO, S
 * **Insufficient support for subtasks and handoffs:** There is a lack of clear ownership rules for parent tasks when subtasks have different owners (handoffs). Subtasks can be too "heavy" or lack enough detail to be useful.
 * **Resistance to process changes:** Introducing new tools or processes (e.g., Scrum) faces resistance because teams fear bureaucracy, or managers treat estimates as promises rather than forecasts.
 
-_(Sources:)_
 
 ## 3. Implementation, Migration, and Pricing Barriers (106)
 
@@ -152,7 +145,6 @@ Difficulties in adopting new tools, the risk of data loss during migration, and 
 * **Opaque and expensive pricing:** Tools have complicated pricing structures, and key features needed for scaling (e.g., reporting, workload, custom dashboards) are locked behind high, unjustified price thresholds or minimum seat counts.
 * **Adoption and onboarding friction:** New users feel overwhelmed (e.g., Jira, ClickUp), must create manual workarounds to compensate for instability, and unclear action consequences (e.g., deleting a guest account) lead to history loss.
 
-_(Sources:)_
 
 ## 4. Usability, UX/UI, and User Experience (78)
 
@@ -165,7 +157,6 @@ As tools scale, their interfaces become clunky, slow, or undergo disorienting ch
 * **Daily usage friction:** Basic operations, such as reordering statuses, lack of simple keyboard shortcuts, or too many clicks to perform a simple action (e.g., adding an item to a cycle), drastically reduce efficiency.
 * **UI and settings opacity:** Settings are hard to find, and vague error messages (e.g., "something went wrong" in Jira) make self-troubleshooting difficult.
 
-_(Sources:)_
 
 ## 5. Visibility, Reporting, and Portfolio-Level Analytics (66)
 
@@ -178,7 +169,6 @@ As teams grow, they need unified views that aggregate statuses from multiple pro
 * **Lack of resource planning and scenarios:** There is a lack of views for balancing workload and capacity across multiple projects. Teams have to resort to Excel to simulate "what-if" scenarios and plan resources.
 * **Lack of client/user context tracking:** With scaling comes the need to track links between development work and client data (e.g., request status or priority correlated with revenue).
 
-_(Sources:)_
 
 ---
 
